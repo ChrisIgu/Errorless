@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="2alex" icon="fase2alex">
+	<anim name="idle" anim="alexfase2" x="46" y="213" indices="0..13"/>
+	<anim name="singDOWN" anim="alexfase2" x="4" y="182" indices="14..17"/>
+	<anim name="singRIGHT" anim="alexfase2" x="31" y="206" indices="22..25"/>
+	<anim name="singLEFT" anim="alexfase2" x="44" y="204" indices="18..21"/>
+	<anim name="singUP" anim="alexfase2" x="14" y="204" indices="26..29"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character flipX="true">
+	<anim name="idle" anim="juananim" x="24.89" y="188.72" indices="0..13"/>
+	<anim name="singDOWN" anim="juananim" x="21.21" y="187.65" indices="14..17"/>
+	<anim name="singRIGHT" anim="juananim" x="10.38" y="195.47" indices="18..21"/>
+	<anim name="singLEFT" anim="juananim" x="35.62" y="192.62" indices="22..25"/>
+	<anim name="singUP" anim="juananim" x="18.11" y="193.11" indices="26..29"/>
+</character>

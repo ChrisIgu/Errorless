@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="particle.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="particle0000" x="0" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0001" x="0" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0002" x="1920" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0003" x="1920" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0004" x="3840" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0005" x="3840" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0006" x="5760" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0007" x="5760" y="0" width="1920" height="1080"/>
+	<SubTexture name="particle0008" x="0" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0009" x="0" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0010" x="1920" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0011" x="1920" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0012" x="3840" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0013" x="3840" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0014" x="5760" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0015" x="5760" y="1080" width="1920" height="1080"/>
+	<SubTexture name="particle0016" x="0" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0017" x="0" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0018" x="1920" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0019" x="1920" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0020" x="3840" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0021" x="3840" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0022" x="5760" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0023" x="5760" y="2160" width="1920" height="1080"/>
+	<SubTexture name="particle0024" x="0" y="3240" width="1920" height="1080"/>
+	<SubTexture name="particle0025" x="0" y="3240" width="1920" height="1080"/>
+	<SubTexture name="particle0026" x="1920" y="3240" width="1920" height="1080"/>
+	<SubTexture name="particle0027" x="1920" y="3240" width="1920" height="1080"/>
+	<SubTexture name="particle0028" x="0" y="3240" width="1920" height="1080"/>
+	<SubTexture name="particle0029" x="0" y="3240" width="1920" height="1080"/>
+</TextureAtlas>

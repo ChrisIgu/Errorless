@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="life_white.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="empty0000" x="0" y="0" width="9" height="9"/>
+	<SubTexture name="empty0001" x="0" y="0" width="9" height="9"/>
+	<SubTexture name="half0000" x="9" y="0" width="9" height="9"/>
+	<SubTexture name="half0001" x="9" y="0" width="9" height="9"/>
+	<SubTexture name="normal0000" x="18" y="0" width="9" height="9"/>
+	<SubTexture name="normal0001" x="18" y="0" width="9" height="9"/>
+</TextureAtlas>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="2alex.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="alexfase20000" x="753" y="0" width="666" height="1107" frameX="-116" frameY="-36" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20001" x="753" y="0" width="666" height="1107" frameX="-116" frameY="-36" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20002" x="1419" y="0" width="655" height="1111" frameX="-114" frameY="-32" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20003" x="1419" y="0" width="655" height="1111" frameX="-114" frameY="-32" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20004" x="640" y="2241" width="640" height="1127" frameX="-123" frameY="-16" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20005" x="640" y="2241" width="640" height="1127" frameX="-123" frameY="-16" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20006" x="2074" y="0" width="637" height="1140" frameX="-132" frameY="-3" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20007" x="2074" y="0" width="637" height="1140" frameX="-132" frameY="-3" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20008" x="0" y="2241" width="640" height="1142" frameX="-132" frameY="-1" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20009" x="0" y="2241" width="640" height="1142" frameX="-132" frameY="-1" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20010" x="0" y="2241" width="640" height="1142" frameX="-132" frameY="-1" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20011" x="0" y="2241" width="640" height="1142" frameX="-132" frameY="-1" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20012" x="0" y="2241" width="640" height="1142" frameX="-132" frameY="-1" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20013" x="0" y="2241" width="640" height="1142" frameX="-132" frameY="-1" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20014" x="1280" y="3125" width="749" height="902" frameX="-75" frameY="-223" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20015" x="1280" y="3125" width="749" height="902" frameX="-75" frameY="-223" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20016" x="1424" y="1140" width="748" height="917" frameX="-82" frameY="-208" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20017" x="1424" y="1140" width="748" height="917" frameX="-82" frameY="-208" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20018" x="728" y="1130" width="696" height="995" frameX="0" frameY="-153" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20019" x="728" y="1130" width="696" height="995" frameX="0" frameY="-153" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20020" x="1280" y="2125" width="683" height="1000" frameX="-16" frameY="-148" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20021" x="1280" y="2125" width="683" height="1000" frameX="-16" frameY="-148" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20022" x="1963" y="2057" width="681" height="1001" frameX="-194" frameY="-114" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20023" x="1963" y="2057" width="681" height="1001" frameX="-194" frameY="-114" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20024" x="2029" y="3058" width="668" height="994" frameX="-183" frameY="-121" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20025" x="2029" y="3058" width="668" height="994" frameX="-183" frameY="-121" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20026" x="0" y="0" width="753" height="1130" frameX="-24" frameY="0" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20027" x="0" y="0" width="753" height="1130" frameX="-24" frameY="0" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20028" x="0" y="1130" width="728" height="1111" frameX="-42" frameY="-19" frameWidth="875" frameHeight="1148"/>
+	<SubTexture name="alexfase20029" x="0" y="1130" width="728" height="1111" frameX="-42" frameY="-19" frameWidth="875" frameHeight="1148"/>
+</TextureAtlas>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="2juan.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="juananim0000" x="1377" y="0" width="651" height="957" frameX="-16" frameY="-27" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0001" x="1377" y="0" width="651" height="957" frameX="-16" frameY="-27" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0002" x="2028" y="0" width="640" height="968" frameX="-27" frameY="-16" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0003" x="2028" y="0" width="640" height="968" frameX="-27" frameY="-16" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0004" x="1377" y="957" width="635" height="961" frameX="-37" frameY="-23" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0005" x="1377" y="957" width="635" height="961" frameX="-37" frameY="-23" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0006" x="2012" y="968" width="627" height="959" frameX="-44" frameY="-25" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0007" x="2012" y="968" width="627" height="959" frameX="-44" frameY="-25" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0008" x="699" y="981" width="626" height="958" frameX="-44" frameY="-26" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0009" x="699" y="981" width="626" height="958" frameX="-44" frameY="-26" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0010" x="699" y="981" width="626" height="958" frameX="-44" frameY="-26" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0011" x="699" y="981" width="626" height="958" frameX="-44" frameY="-26" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0012" x="699" y="981" width="626" height="958" frameX="-44" frameY="-26" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0013" x="699" y="981" width="626" height="958" frameX="-44" frameY="-26" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0014" x="0" y="984" width="673" height="878" frameX="-125" frameY="-116" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0015" x="0" y="984" width="673" height="878" frameX="-125" frameY="-116" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0016" x="0" y="1862" width="654" height="891" frameX="-139" frameY="-103" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0017" x="0" y="1862" width="654" height="891" frameX="-139" frameY="-103" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0018" x="0" y="0" width="699" height="984" frameX="0" frameY="-13" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0019" x="0" y="0" width="699" height="984" frameX="0" frameY="-13" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0020" x="699" y="0" width="678" height="981" frameX="-21" frameY="-16" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0021" x="699" y="0" width="678" height="981" frameX="-21" frameY="-16" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0022" x="2459" y="1927" width="553" height="965" frameX="-273" frameY="-55" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0023" x="2459" y="1927" width="553" height="965" frameX="-273" frameY="-55" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0024" x="654" y="1939" width="556" height="956" frameX="-273" frameY="-64" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0025" x="654" y="1939" width="556" height="956" frameX="-273" frameY="-64" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0026" x="1325" y="1918" width="568" height="986" frameX="-56" frameY="0" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0027" x="1325" y="1918" width="568" height="986" frameX="-56" frameY="0" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0028" x="1893" y="1927" width="566" height="976" frameX="-64" frameY="-10" frameWidth="829" frameHeight="1020"/>
+	<SubTexture name="juananim0029" x="1893" y="1927" width="566" height="976" frameX="-64" frameY="-10" frameWidth="829" frameHeight="1020"/>
+</TextureAtlas>

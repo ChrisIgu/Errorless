@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="button.png"><SubTexture name="botonxd2 basic0000" x="0" y="0" width="148" height="18" frameX="-1" frameY="-1" frameWidth="150" frameHeight="20" />
+<SubTexture name="botonxd2 white0000" x="0" y="18" width="148" height="18" frameX="-1" frameY="-1" frameWidth="150" frameHeight="20" />
+</TextureAtlas>

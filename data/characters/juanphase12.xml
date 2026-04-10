@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="phase3juancaaltas" scale="0.5" flipX="true" isPlayer="true" icon="juanphase12">
+	<anim name="idle" anim="idle" x="-404" y="-708"/>
+	<anim name="singDOWN" anim="down" x="182" y="-950"/>
+	<anim name="singRIGHT" anim="right" x="-30" y="-720"/>
+	<anim name="singLEFT" anim="left" x="224" y="-710"/>
+	<anim name="singUP" anim="up" x="236" y="-658"/>
+</character>

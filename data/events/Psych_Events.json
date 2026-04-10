@@ -1,0 +1,14 @@
+{
+	"params": [
+		{
+			"name": "Character (BF, Dad, GF)",
+			"type": "String",
+			"defaultValue": "dad"
+		},
+		{
+			"name": "New Character Name",
+			"type": "String",
+			"defaultValue": "pico"
+		}
+	]
+}

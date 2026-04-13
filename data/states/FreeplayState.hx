@@ -5,8 +5,6 @@ import flixel.FlxG;
 function onSelect(event:FreeplaySongSelectEvent) {
     var song = FreeplaySonglist.get().songs[0];
 
-    trace("Loading song: " + song.name);
-
     Options.freeplayLastSong = song.name;
     Options.freeplayLastDifficulty = song.difficulties[0];
     Options.freeplayLastVariation = song.variants;

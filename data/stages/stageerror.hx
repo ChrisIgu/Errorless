@@ -603,8 +603,8 @@ function stepHit(){
                 camGame.scroll.x = v;   
         });
         for(sprite in [boyfriend, dad]) {
-            sprite.cameraOffset.set(0, sprite.cameraOffset.y + (sprite == boyfriend ? 500 : 350));
-            sprite.setPosition(sprite.x, sprite.y);
+            sprite.cameraOffset.set(sprite.cameraOffset.x + (sprite == boyfriend ? 0 : 300), sprite.cameraOffset.y + (sprite == boyfriend ? 450 : 300));
+            sprite.setPosition(sprite.x + (sprite == boyfriend ? 0 : 80), sprite.y + (sprite == boyfriend ? 0 : 250));
         }
         camGame.followLerp = 0.03;
         individualzoom = true;

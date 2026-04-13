@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="phase3alexatlas" scale="0.55" flipX="true">
+<character sprite="phase3alexatlas" scale="0.6" icon="alexphase12">
 	<anim name="idle" anim="idle" x="-615" y="-300"/>
-	<anim name="singDOWN" anim="down" x="-814" y="-493"/>
-	<anim name="singRIGHT" anim="right" x="-743" y="-481"/>
-	<anim name="singLEFT" anim="left" x="-1059" y="443"/>
-	<anim name="singUP" anim="up" x="-960" y="-185"/>
+	<anim name="singDOWN" anim="down" x="-409" y="-493"/>
+	<anim name="singRIGHT" anim="right" x="-493" y="-461"/>
+	<anim name="singLEFT" anim="left" x="-172.33" y="443"/>
+	<anim name="singUP" anim="up" x="-255.01" y="-165.01"/>
 </character>

@@ -18,8 +18,6 @@ function create(){
     intro.scale.set(0.95,0.95);
     intro.screenCenter(FlxAxes.XY);
 
-    //new FlxTimer().start(2, _ -> pressEnter());
-
     add(bar = new FlxSprite(0, FlxG.height / 1.2).makeGraphic(FlxG.width / 1.8, 20, 0xFFef323d));
     bar.screenCenter(FlxAxes.X);
 

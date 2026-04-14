@@ -6,6 +6,7 @@ import openfl.utils.Assets;
 import away3d.textures.BitmapCubeTexture;
 import away3d.primitives.SkyBox;
 import funkin.options.OptionsMenu;
+import funkin.backend.MusicBeatState;
 import Sys;
 import flixel.text.FlxTextBorderStyle;
 
@@ -17,21 +18,27 @@ var skybox:SkyBox;
 var buttons:Array<FlxSprite> = [];
 var curSelected:Int = 0;
 var val:Int = 0;
+var vram:Bool;
+var framesActive:Int = 0;
+var screenshot:FlxSprite; 
+var click:FlxSound = FlxG.sound.load(Paths.sound("click"));
 
 function create(){
+    vram = Options.gpuOnlyBitmaps;
+    Options.gpuOnlyBitmaps = false;
     cam = new FlxCamera();
     cam.bgColor = 0x0;
 	FlxG.cameras.add(cam, false);
 
 	scene3D = new Flx3DView(0, 0, FlxG.width, FlxG.height);
     scene3D.screenCenter();
-	scene3D.antialiasing = true;
+	scene3D.antialiasing = false;
 	scene3D.camera = cam;
     Flx3DUtil.is3DAvailable();
 
     scene3D.view.camera.rotationY = 180;
 
-    scene3D.view.camera.lens.far = 2000; 
+    scene3D.view.camera.lens.far = 100; 
 
     add(scene3D);
 
@@ -47,6 +54,11 @@ function create(){
 	skybox = new SkyBox(cubeTexture);
 	scene3D.addChild(skybox);
 
+    add(screenshot = new FlxSprite(0, 0).loadGraphic(Paths.image('screenshot')));
+    screenshot.camera = cam;
+    screenshot.setGraphicSize(FlxG.width, FlxG.height);
+    screenshot.screenCenter(FlxAxes.XY);
+
 	var coords:Array<Int> = [642, 505, 780];
 
     for(i in 0...3) {
@@ -59,6 +71,7 @@ function create(){
         grrraaa.camera = cam;
         grrraaa.scale.set(1.35, 1.35);
         grrraaa.updateHitbox();
+        grrraaa.alpha = 0;
         add(grrraaa);
 		grrraaa.setPosition(coords[i] - grrraaa.width / 2, 320 + (((i == 0) ? 0 : 1) * 65));
         buttons.push(grrraaa);
@@ -80,33 +93,57 @@ function create(){
     add(underline = new FlxSprite(texto1.x, texto1.y + texto1.height - 15).makeGraphic(Std.int(texto1.width), 2, 0xFFFFFFFF));
 	underline.camera = cam;
 
+    for(i in [title, texto, texto1, underline])i.alpha = 0;
 
 	FlxG.mouse.visible = true;
 }
 
 var time:Float = 0;
+var corriendo:Bool = false;
 function update(elapsed:Float){
     time += elapsed;
-    scene3D.view.camera.rotationY = 200 + time * 2;
-
-    for (i in 0...3){
-        if(FlxG.mouse.overlaps(buttons[i])){
-                curSelected = i;
-                if(FlxG.mouse.justPressed) selected(i);
-        }else{
-            curSelected = 3;
+    if (scene3D != null && scene3D.view != null) {
+        scene3D.view.camera.rotationY = 200 + time * 2;
+        
+        if (screenshot != null && screenshot.visible) {
+            framesActive++;
+            if (framesActive > 5) {
+                if(title.alpha == 0){
+                    for(i in [title, texto, texto1, underline])FlxTween.tween(i, {alpha: 1}, 2, {ease: FlxEase.quintOut});
+                    for(i in 0...buttons.length)FlxTween.tween(buttons[i], {alpha: 1}, 2, {ease: FlxEase.quintOut});
+                }
+                corriendo = true;
+                screenshot.visible = false;
+                screenshot.destroy();
+            }
         }
-		buttons[i].animation.play((i == curSelected) ? 'selected' : 'idle');
     }
+
+
+    if(corriendo){
+        for (i in 0...3){
+            if(FlxG.mouse.overlaps(buttons[i])){
+                    curSelected = i;
+                    if(FlxG.mouse.justPressed) selected(i);
+            }else{
+                curSelected = 3;
+            }
+	    	buttons[i].animation.play((i == curSelected) ? 'selected' : 'idle');
+        }
+    }
+    trace(title.alpha);
 }
 
 function selected(sel:Int){
     if(val != 0) return;
     val++;
 
-    switch(sel){
-        case 0:
-            var song = FreeplaySonglist.get().songs[0];
+    FlxG.sound.play(Paths.sound('click'), 1);
+    for(i in [title, texto, texto1, underline])FlxTween.tween(i, {alpha: 0}, 2, {ease: FlxEase.quintOut});
+    for(i in 0...buttons.length)FlxTween.tween(buttons[i], {alpha: 0}, 2, {ease: FlxEase.quintOut, onComplete: function(){
+        switch(sel){
+            case 0:
+                var song = FreeplaySonglist.get().songs[0];
 
             Options.freeplayLastSong = song.name;
             Options.freeplayLastDifficulty = song.difficulties[0];
@@ -121,8 +158,12 @@ function selected(sel:Int){
         case 1: FlxG.switchState(new OptionsMenu());
 		case 2: Sys.exit(0);
         }
+    }});
 }
 
 function destroy(){
-	scene3D.destroy();
+    scene3D.destroy();
+    scene3D = null;
+
+    Options.gpuOnlyBitmaps = vram;
 }

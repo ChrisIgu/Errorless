@@ -20,12 +20,14 @@ var curSelected:Int = 0;
 var val:Int = 0;
 var vram:Bool;
 var framesActive:Int = 0;
-var screenshot:FlxSprite; 
-var click:FlxSound = FlxG.sound.load(Paths.sound("click"));
+var screenshot:FlxSprite;
 
 function create(){
     vram = Options.gpuOnlyBitmaps;
+    FlxG.sound.playMusic(Paths.music('MainMenu'), 0, true);
+    FlxG.sound.music.fadeIn(8, 0, 1);
     Options.gpuOnlyBitmaps = false;
+    
     cam = new FlxCamera();
     cam.bgColor = 0x0;
 	FlxG.cameras.add(cam, false);
@@ -119,16 +121,21 @@ function update(elapsed:Float){
         }
     }
 
-
     if(corriendo){
         for (i in 0...3){
             if(FlxG.mouse.overlaps(buttons[i])){
-                    curSelected = i;
-                    if(FlxG.mouse.justPressed) selected(i);
+                curSelected = i;
+                if(FlxG.mouse.justPressed) selected(i);
             }else{
                 curSelected = 3;
             }
 	    	buttons[i].animation.play((i == curSelected) ? 'selected' : 'idle');
+        }
+
+        if(FlxG.mouse.overlaps(texto1)){
+            underline.alpha = 1;
+        }else{
+            underline.alpha = 0;
         }
     }
     trace(title.alpha);

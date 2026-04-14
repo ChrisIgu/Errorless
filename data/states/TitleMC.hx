@@ -8,7 +8,7 @@ var bar3:FlxSprite;
 var num:Int = 0;
 
 function create(){
-    FlxG.sound.playMusic(Paths.music('MainMenu'), 1, true);
+    FlxG.sound.playMusic(Paths.music('MainMenu'), 0, true);
 
     insert(0, screenshot = new FlxSprite(0, 0).loadGraphic(Paths.image('screenshot')));
     screenshot.setGraphicSize(FlxG.width, FlxG.height);
